@@ -10,5 +10,5 @@ function retval = Bisection(f,a,b);
       a = c;
     endif
   endwhile
-  value = c;
+  retval = c;
 endfunction
